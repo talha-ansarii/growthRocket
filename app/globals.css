@@ -3,6 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body{
+    background-color: #0D0D0D;
+}
 .htext{
     color: #FFF;
 font-family: Poppins;
@@ -56,7 +59,6 @@ background: var(--agencee-framer-website-tango, #F58327);
 .heroText{
     color: var(--agencee-framer-website-nero, #FFF);
 text-align: center;
-font-size: 90px;
 font-style: normal;
 font-weight: 200;
 line-height: 63px; /* 70% */
@@ -66,7 +68,6 @@ letter-spacing: -3px;
     color: #FFF;
 text-align: center;
 font-family: Poppins;
-font-size: 120px;
 font-style: italic;
 font-weight: 500;
 line-height: 63px; /* 52.5% */
@@ -76,7 +77,6 @@ letter-spacing: -3px;
 .agency{
     color: var(--agencee-framer-website-nero, #FFF);
 text-align: center;
-font-size: 90px;
 font-style: normal;
 font-weight: 200;
 line-height: 63px; /* 70% */
@@ -116,8 +116,6 @@ line-height: 27px; /* 135% */
 letter-spacing: 8px;
 }
 .review{
-    width: 784px;
-height: 91px;
 flex-shrink: 0;
 border-radius: 14px;
 border: 0.25px solid #FFF8F8;

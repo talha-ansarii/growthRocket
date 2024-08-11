@@ -4,19 +4,20 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-black relative items-center flex flex-col  h-[1078px] '>
-    <div className='mt-[200px] flex flex-col gap-y-[30px] '>
-        <div className='heroText flex ml-[180px] '>
-            <div>The Best</div> <span><Image className='ml-[-20px]' width={383} height={95} src={"/digital.svg"} /></span>
+    <div className='bg-black overflow-x-hidden relative items-center flex flex-col md:h-[1078px]  '>
+    <div className='lg:mt-[200px] md:mt-[200px] mt-[100px] m-auto  justify-center items-center flex flex-col gap-y-[30px] '>
+        <div className='heroText ml-[40px]  lg:text-[90px] md:text-[50px] flex flex-col md:flex-row lg:flex-row lg:ml-[180px] md:ml-[180px] '>
+            <div className='text-[50px] mr-[25px] md:mr-0 lg:mr-0'>The Best</div> 
+            <span><Image className=' lg:ml-[-20px] ml-[-20px] block md:block lg:block lg:mt-0 md:mt-0 md:ml-[-30px]' width={383} height={95} src={"/digital.svg"} /></span>
         </div>
 
-        <div>
-            <span className='marketing'>Marketing{' '}</span>
-            <span className='agency'>Agency</span>
+        <div className='ml-[50px] md:ml-0 lg:ml-0'>
+            <span className='marketing md:text-[100px] lg:text-[120px] text-[70px]'>Marketing{' '}</span>
+            <span className='agency ml-[50px] md:ml-0 lg:ml-0 lg:text-[90px] md:text-[90px] text-[50px]'>Agency</span>
         </div>
         
     </div>
-    <div className='mt-[100px] relative z-[100]'>
+    <div className='mt-[80px] md:mt-[100px] lg:mt-[100px] relative m-3 md:p-m lg:p-m z-[100]'>
         <div className='we'>
         We believe in combining <span className='web'>innovative design, sustainable practices,</span> and 
         </div>
@@ -24,32 +25,32 @@ const Hero = () => {
     </div>
 
 
-    <Link href={"#"} className="book mt-[100px] flex justify-between  items-center relative z-[100]">
+    <Link href={"#"} className="book  mt-[80px] md:mt-[100px] lg:mt-[100px] m-3 md:p-0 lg:m-0 flex justify-between  items-center relative z-[100]">
     <div>
     
     </div>
-        <div className=' ml-[50px]'>
+        <div className=' ml-[50px] '>
         BOOK A CALL
 
         </div>
         <img src="/SVG.svg" className='w-[40px]' alt="svg" />
         </Link>
 
-        <div className='review mt-[200px] relative z-[100] flex items-center justify-between'>
-        <div className='r1 p-4 w-[328px]'>
+        <div className='review lg:mb-[50px] lg:h-[91px] md:h-[91px]  lg:w-[784px] w-auto md:w-[650px] md:mt-[200px] ld:mt-[200px] mt-[50px] md:flex-row lg:flex-row flex-col relative z-[100] flex items-center justify-between'>
+        <div className='r1 p-4 md:text-sm w-[328px] md:w-[300px]'>
         #1 Digital Marketing 
         Agency in Asia
         </div>
         <div className=''>
-            <div className='r2 flex '>
-                <img className='rounded-full w-[50px] h-[50px] object-cover' src={"/pfp1.png"} width={50} height={50} alt="pfp1" />
-                <img className='rounded-full ml-[-10px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp2.png"} width={50} height={50} alt="pfp1" />
-                <img className='rounded-full  ml-[-10px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp3.png"} width={50} height={50} alt="pfp1" />
-                <img className='rounded-full ml-[-10px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp1.png"} width={50} height={50} alt="pfp1" />
+            <div className='r2 md:-[100px] flex '>
+                <img className='rounded-full w-[50px] h-[50px] md:w-[40px] md:h-[40px] object-cover' src={"/pfp1.png"} width={50} height={50} alt="pfp1" />
+                <img className='rounded-full ml-[-10px] md:w-[40px] md:h-[40px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp2.png"} width={50} height={50} alt="pfp1" />
+                <img className='rounded-full  ml-[-10px] md:w-[40px] md:h-[40px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp3.png"} width={50} height={50} alt="pfp1" />
+                <img className='rounded-full ml-[-10px] md:w-[40px] md:h-[40px] shadow-md w-[50px] h-[50px] object-cover' src={"/pfp1.png"} width={50} height={50} alt="pfp1" />
             </div>
 
         </div>
-        <div className='p-4'>
+        <div className='p-4 md:p-2'>
         <svg xmlns="http://www.w3.org/2000/svg" width="227" height="30" viewBox="0 0 227 30" fill="none">
   <g clip-path="url(#clip0_265_3207)">
     <path d="M23.5346 18.1705L23.5346 18.1705L23.5306 18.1746C23.0585 18.6643 22.8495 19.3642 22.9537 20.0405L22.9537 20.0405L22.9549 20.0475L24.1897 27.37L24.1898 27.3704C24.2647 27.8124 24.0869 28.2498 23.7601 28.4926L23.76 28.4925L23.7501 28.5003C23.4353 28.7467 23.024 28.7749 22.6804 28.5784L22.6804 28.5783L22.6759 28.5759L16.5276 25.1408C16.2409 24.9765 15.9235 24.89 15.6018 24.8803L15.5943 24.8801H15.5868H15.2094H15.168L15.1272 24.8869C14.9443 24.9174 14.7593 24.979 14.5867 25.0786L8.4405 28.5281C8.23474 28.6379 8.00705 28.6756 7.78523 28.6392C7.25619 28.5276 6.85527 27.965 6.95203 27.32L8.18619 20.0016L8.18622 20.0016L8.18709 19.996C8.29423 19.3138 8.08475 18.6125 7.61265 18.1165L7.61059 18.1143L2.59432 12.9064L2.59416 12.9062C2.30691 12.6083 2.19908 12.1479 2.33671 11.7265L2.33817 11.722C2.47192 11.2988 2.80315 11.0148 3.17656 10.9507L10.0664 9.87984C10.7745 9.79747 11.3714 9.33676 11.6754 8.69081L11.6754 8.69083L11.678 8.68515L14.7184 2.0085C14.7646 1.91366 14.8216 1.82998 14.887 1.75871L14.9885 1.67334L15.0212 1.64583L15.0487 1.61317C15.0703 1.5876 15.0963 1.56296 15.1262 1.54004L15.2205 1.50395L15.2313 1.49979L15.242 1.49514L15.3838 1.43311H15.8335C16.1633 1.4784 16.4672 1.69439 16.6356 2.03927L19.7148 8.68526C19.715 8.68576 19.7152 8.68625 19.7154 8.68674C20.0019 9.31413 20.5671 9.76674 21.2394 9.87753L21.2394 9.87755L21.2439 9.87826L28.1498 10.9513L28.1527 10.9517C28.5299 11.008 28.8714 11.2933 29.0124 11.7214C29.1403 12.1476 29.0246 12.6068 28.7321 12.9003L28.7303 12.9022L23.5346 18.1705Z" fill="#FF8442" stroke="white"/>
@@ -71,7 +72,7 @@ const Hero = () => {
 
         </div>
 
-    <Image className='absolute z-[10] ' src="/gradient.png" layout="fill" objectFit="cover" alt="gradient" />
+    <img className='absolute z-[10] lg:bottom-[0] bottom-[250px] md:bottom-[500px] w-full md:scale-1 lg:scale-[1]    scale-[5]' src="/gradient.png" layout="fill" objectFit="cover" alt="gradient" />
 
 
 
