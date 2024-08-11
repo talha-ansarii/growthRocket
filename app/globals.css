@@ -1,33 +1,142 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.htext{
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.headerBorder{
+    border-radius: 160px;
+    background: #0D0D0D;
+    
+    backdrop-filter: blur(2.5px);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navLinkActive{
+border-radius: 30px;
+background: rgba(255, 255, 255, 0.10);
+display: flex;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+}
+.navLinks{
+    color: #FFF;
+
+/* agencee.framer.website/Poppins/Regular 12 upper */
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+letter-spacing: -0.1px;
+text-transform: uppercase;
+display: flex;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.goViral{
+    width: 121.73px;
+height: 43px;
+border-radius: 60px;
+background: var(--agencee-framer-website-tango, #F58327);
+
+}
+
+.heroText{
+    color: var(--agencee-framer-website-nero, #FFF);
+text-align: center;
+font-size: 90px;
+font-style: normal;
+font-weight: 200;
+line-height: 63px; /* 70% */
+letter-spacing: -3px;
+}
+.marketing{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 120px;
+font-style: italic;
+font-weight: 500;
+line-height: 63px; /* 52.5% */
+letter-spacing: -3px;
+}
+
+.agency{
+    color: var(--agencee-framer-website-nero, #FFF);
+text-align: center;
+font-size: 90px;
+font-style: normal;
+font-weight: 200;
+line-height: 63px; /* 70% */
+letter-spacing: -3px;
+}
+.we{
+    color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px; /* 108% */
+}
+
+.web{
+    color: white;
+font-family: Poppins;
+font-size: 25px;
+font-style: italic;
+font-weight: 700;
+line-height: 27px;
+}
+.book{
+    width: 367.63px;
+height: 41.656px;
+flex-shrink: 0;
+border-radius: 40.071px;
+background: rgba(255, 200, 155, 0.70);
+box-shadow: 0px 0px 37.6px 0px #391900;
+color: #3D1C01;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 135% */
+letter-spacing: 8px;
+}
+.review{
+    width: 784px;
+height: 91px;
+flex-shrink: 0;
+border-radius: 14px;
+border: 0.25px solid #FFF8F8;
+background: linear-gradient(113deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 102.36%);
+backdrop-filter: blur(5.75px);
+}
+
+.r1{
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 108.333% */
+letter-spacing: -0.4px;
+text-transform: uppercase;
+}
+
+.r2{
+    width: 166px;
+height: 49px;
+flex-shrink: 0;
 }
