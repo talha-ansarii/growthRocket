@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='bg-black overflow-x-hidden relative items-center flex flex-col md:h-[1078px]  '>
-    <div className='lg:mt-[200px] md:mt-[200px] mt-[100px] m-auto  justify-center items-center flex flex-col gap-y-[30px] '>
+    <div className='lg:mt-[200px] w-full md:mt-[200px] mt-[100px] m-auto  justify-center items-center flex flex-col gap-y-[30px] '>
         <div className='heroText ml-[40px]  lg:text-[90px] md:text-[50px] flex flex-col md:flex-row lg:flex-row lg:ml-[180px] md:ml-[180px] '>
             <div className='text-[50px] mr-[25px] md:mr-0 lg:mr-0'>The Best</div> 
             <span><Image className=' lg:ml-[-20px] ml-[-20px] block md:block lg:block lg:mt-0 md:mt-0 md:ml-[-30px]' width={383} height={95} src={"/digital.svg"} /></span>
